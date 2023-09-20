@@ -81,3 +81,7 @@ int main(int argc, char** argv)
     perror("Could not start the server");
     exit(-1);
 }
+
+
+// class 에 i/o_muliflexing 관련 함수들 넣어놓고 운영체제에 따라 다르게 처리
+// class 생성과 함수 사용시 그에 맞는 함수호출
